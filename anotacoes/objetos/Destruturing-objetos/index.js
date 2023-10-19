@@ -7,7 +7,7 @@ const Tenis ={
     link: {a: "prop a", b: {c:"prop c"}},
 };
 // Destructuring utilizado na linha 7
-const {tamanho, estoque, marcas = "Não possui Marcas"}= Tenis; /* nesse treixo: "marcas = "Não possui Marcas"" caso não axista propriedade "marcas* será retornado a freze cmo de fosse uma condição if conpactada.*/
+const {tamanho, estoque, marcas = "Não possui Marcas"}= Tenis; /* nesse treixo: "marcas = "Não possui Marcas"" caso não axista propriedade "marcas* será retornado a fraze como de fosse uma condição if compactada.*/
 
 console.log(tamanho, estoque, marcas);
 
